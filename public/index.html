@@ -9,6 +9,20 @@
   <body>
     <h1>Socket Client</h1>
     <hr />
+    <p>
+      Server status:
+      <span id="lblOnline">Online</span>
+      <span id="lblOffline">Offline</span>
+    </p>
+
+    <div>
+      <div>
+        <input type="text"  id="txtMensaje">
+      </div>
+      <div>
+        <button id="btnEnviar">Enviar</button>
+      </div>
+    </div>
     <script src="./socket.io/socket.io.js"></script>
     <script src="./js/socket-client.js"></script>
   </body>
