@@ -1,0 +1,21 @@
+{
+  "name": "08-web-socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon app/index.js",
+    "start": "node app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
